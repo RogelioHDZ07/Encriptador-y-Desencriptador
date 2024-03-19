@@ -35,7 +35,7 @@ a {
 
 #btn_inicio {
     display: block;
-    width: 8%;
+    width: 80px;
     margin: 60px auto;
     text-align: center;
     font-size: 24px;
@@ -52,4 +52,16 @@ a {
 #btn_inicio:hover {
     background: rgba(0, 0, 0, 0.7);
     transform: scale(1.05);
+}
+
+@media screen and (max-width:480px) {
+
+    h1{
+        font-size: 50px;
+    }
+
+    #btn_inicio{
+        width: auto;
+    }
+
 }
